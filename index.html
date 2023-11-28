@@ -1,0 +1,200 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/all.min.css">
+    <link rel="stylesheet" href="css/normalize.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/swiper-bundle.min.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Cairo:wght@600;700&family=Open+Sans:ital,wght@0,300;0,400;0,500;1,300;1,400&display=swap"
+        rel="stylesheet">
+    <title>Royal Dome</title>
+</head>
+<body>
+    <!-- start header  -->
+    <style>
+        html,
+        body {
+            position: relative;
+            height: 100%;
+        }
+    
+        body {
+            background: #eee;
+            font-family: Helvetica Neue, Helvetica, Arial, sans-serif;
+            font-size: 14px;
+            color: #000;
+            margin: 0;
+            padding: 0;
+        }
+    
+        .swiper {
+            width: 100%;
+            height: 100%;
+        }
+    
+        .swiper-slide {
+            text-align: center;
+            font-size: 18px;
+            background: #fff;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+    
+        .swiper-slide img {
+            display: block;
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+        }
+        .swiper-wrapper{
+            transition-duration: 1s !important;
+        }
+    </style>
+    </head>
+    
+    <body>
+        <!-- Swiper -->
+        <div class="swiper mySwiper">
+            <div class="swiper-wrapper">
+                <div class="swiper-slide"><img src="imges/01.jpg" alt=""></div>
+                <div class="swiper-slide"><img src="imges/02.jpg" alt=""></div>
+                <div class="swiper-slide"><img src="imges/03.jpg" alt=""></div>
+                <div class="swiper-slide"><img src="imges/04.jpg" alt=""></div>
+                <div class="swiper-slide"><img src="imges/05.jpg" alt=""></div>
+                <!-- <div class="swiper-slide">Slide 6</div>
+                <div class="swiper-slide">Slide 7</div>
+                <div class="swiper-slide">Slide 8</div>
+                <div class="swiper-slide">Slide 9</div> -->
+            </div>
+            <div class="swiper-button-next " style="color: white;" ></div>
+            <div class="swiper-button-prev"style="color: white;"></div>
+            <div class="swiper-pagination"style="color: white;"></div>
+            <div class="header">
+                <div class="container">
+<div class="mobile">
+    <nav class="navbar bg-body-tertiary fixed-top">
+        <div class="container-fluid">
+            <a href="index.html" class="logo"><img src="imges/logo1.png" alt=""></a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasNavbar"
+                aria-controls="offcanvasNavbar" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvasNavbar"
+                aria-labelledby="offcanvasNavbarLabel">
+                <div class="offcanvas-header">
+                    <h5 class="offcanvas-title" id="offcanvasNavbarLabel">Royal Dom</h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+                </div>
+                <div class="offcanvas-body">
+                    <ul class="navbar-nav justify-content-end flex-grow-1 pe-3">
+                        <li class="nav-item">
+                            <a class="nav-link active" aria-current="page" href="#">we are</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">The team</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">architecure</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">metaverse</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">masterplans</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">news</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">contact</a>
+                        </li>
+                        
+                        
+                    </ul>
+                    <form class="d-flex mt-3" role="search">
+                        <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+                        <button class="btn btn-outline-success" type="submit">Search</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </nav>
+</div>
+
+                    <a href="index.html" class="logo"><img src="imges/logo1.png" alt=""></a>
+            
+
+                    <ul class="main-nav">
+                        <li><a href="#articles">We are</a></li>
+                        <li><a href="#gallery">The team</a></li>
+                        <li><a href="#features">architecure</a></li>
+                        <li><a href="#features">interiors</a></li>
+                        <li><a href="#features">metaverse</a></li>
+                        <li><a href="#features">masterplans</a></li>
+                        <li><a href="#features">news</a></li>
+                        <li><a href="#features">contact</a></li>
+                        <li><a href="#features"><i class="fa-solid fa-magnifying-glass" style="color: #ffff;"></i></a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    <div class="footer">
+        <div class="footer-info">
+            <div class="container">
+                <div class="info">
+                    <a href=""><img src="imges/footer.svg" alt=""></a>
+                </div>
+                <div >
+                    <ul class="socail">
+                        <li><a href="">Fb</a></li>
+                        <li><a href="">Lg</a></li>
+                        <li><a href="">Linkedin</a></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="footer-text">
+                ©2023 <span>Royal Dom</span> | All Right Reserved
+            </div>
+        </div>
+    </div>
+        <!-- Swiper JS -->
+        <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+    
+        <!-- Initialize Swiper -->
+        <script>
+            var swiper = new Swiper(".mySwiper", {
+                spaceBetween: 0,
+                centeredSlides: true,
+                autoplay: {
+                    delay: 55000,
+                    disableOnInteraction: false,
+                },
+                pagination: {
+                    el: ".swiper-pagination",
+                    clickable: true,
+                },
+                navigation: {
+                    nextEl: ".swiper-button-next",
+                    prevEl: ".swiper-button-prev",
+                },
+            });
+        </script>
+    <!-- end header  -->
+        
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
+        crossorigin="anonymous"></script>
+        <script src="js/main.js"></script>
+        <script src="js/swiper-bundle.min.js"></script>
+		<script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+
+</body>
+</html>
