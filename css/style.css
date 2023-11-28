@@ -198,3 +198,9 @@ display: flex;
     .footer .footer-text span{
         font-weight: bold;
     }
+
+  @media (max-width: 767px) {
+.footer .info img{
+    width: 300px !important;
+}
+  }
